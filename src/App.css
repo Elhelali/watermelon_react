@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* Survey.css */
+.dots_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 8px;
+  transition:1s
+}
+
+.active {
+  background-color: #3a5b86;
+  cursor: pointer;
+}
+
+.nav_button{
+  padding:10px;
+  margin:10px;
+  cursor:pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 15px;
+}
+h3{
+  font-weight:400
+}
+
+.input {
+  font-size: 16px;
+  text-align: center;
+  margin:5px
+}
+.text_input {
+  width:250px;
+  padding:20px;
+
+}
